@@ -1,0 +1,15 @@
+.header {
+    padding: 1.5rem;
+    background-color: $color-grey-light-1;
+
+    &__paragraph {
+        font-size: 1.6rem;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    &__link {
+        color: black;
+    }
+}
+

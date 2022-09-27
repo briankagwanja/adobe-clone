@@ -1,0 +1,114 @@
+.navigation {
+    position: fixed;
+    position: relative;
+    
+    &__setting {
+        margin-top: 2rem;
+        height: 10vh;
+        display: inline-block;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        position: relative;
+        padding-bottom: 2.6rem;
+        border-bottom: 1px solid $color-grey-light-1;
+    }
+
+    &__items {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-left: 4rem;
+
+        &:not(:first-child) {
+            margin-left: 3rem;
+        }
+    }
+
+    &__logo {
+        position: absolute;
+        top: -1.2rem;
+        left: -2rem;
+        height: 6rem;
+        width: 6rem;
+        padding-right: -4rem;
+    }
+
+    &__svg {
+        height: 2rem;
+        width: 2rem;
+
+        &--1 {
+            margin-left: 0rem;
+        }
+
+        &--2 {
+            margin-left: -0rem;
+        }
+
+        &--3 {
+            margin-right: -2rem;
+            &:hover {
+                 fill: $color-primary
+            }       
+        }        
+
+    }
+
+    
+
+    &__list {
+        padding-left: 1.6rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 1.3rem;
+        padding: 0 1.2rem;
+        color: black;
+        margin-right: -1rem;
+    }
+
+    &__nav2 {
+        display: flex;
+        align-items: center;
+        padding-right: 2rem;
+        padding-bottom: 5rem;
+        padding-top: 2rem;
+
+        &__link {
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+
+    &__hover {
+        &:hover {
+            color: $color-primary;
+        }
+    }
+
+    &__border-bottom {
+        border-bottom: 2px solid black;
+        padding-bottom: 3.7rem;
+        font-weight: 650;
+    }
+
+    &__home {
+        padding-top: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+
+    }
+
+    &__slash{
+        padding-left: 1rem;
+    }
+
+    &__paragraph {
+        font-size: 1.25rem;
+        padding-left: 1rem;
+    }
+}

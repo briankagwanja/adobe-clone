@@ -1,0 +1,18 @@
+.section-intro {
+    height: 75vh;
+    padding: 2rem 10rem;
+    background: linear-gradient(to right bottom, rgba($color-1, .9), rgba($color-2, .9), rgba($color-3, .9), rgba($color-4, .9));
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+
+.section-display {
+    padding: 1rem 41rem;
+}
+
+.section-cloud {
+    background-color: $color-grey-light-2;
+    height: 80rem;
+    padding: 3rem;
+}

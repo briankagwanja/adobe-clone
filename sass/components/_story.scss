@@ -1,0 +1,45 @@
+.story {
+
+    &__content {
+        padding-top: 6rem;
+        width: 75%;
+    }
+
+    &__icon {
+        height: 6rem;
+        width: 6rem;
+        margin-bottom: 3rem;
+    }
+
+    &__paragraph {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2.5rem;
+    }
+
+    &__button {
+        font-size: 2rem;
+        padding: 1rem 3rem;
+        border-radius: 30px;
+        cursor: pointer;
+
+        &--1 {
+            background-color: transparent;
+            border-color: black;
+
+            &:hover {
+                background-color: black;
+                color: #fff;
+            }
+        }
+    }
+
+    &__svg {
+        fill: #fff;
+        height: 50rem;
+        width: 50rem;
+        margin-top: -5rem;
+        
+    }
+}
