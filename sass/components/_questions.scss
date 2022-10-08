@@ -1,0 +1,45 @@
+.questions {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    position: relative;
+
+    &__content {
+        margin: 4rem 11rem;
+        
+        &--1 {
+             &::before {
+                content: "";
+                position: absolute;
+                top: 0rem;
+                
+                width: 83.9%;
+                border-bottom: 1px solid $color-grey-light-2;
+                margin-bottom: 3rem;
+                
+
+            }
+        }
+        
+       
+        
+    }
+
+    &__link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding: 1.5rem 0;
+        border-bottom: 1px solid $color-grey-light-2 ;
+        margin-top: -4rem;
+
+        &:hover {
+            background-color: $color-grey-light-1;
+        }
+    }
+
+    &__svg {
+        height: 3rem;
+        width: 3rem;
+        fill: $color-grey-dark-3;
+    }
+}

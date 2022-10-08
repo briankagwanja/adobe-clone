@@ -1,0 +1,48 @@
+.creative {
+    &__grid {
+        margin-top: 6rem;
+        display: grid;
+        grid-template-columns: 5rem repeat(3, 1fr) 8rem;
+        grid-column-gap: 3rem;
+    }
+
+    &__img {
+        height: 32rem;
+        width: 38rem;
+        margin-bottom: -2rem;
+        padding: 4rem;
+    }
+
+    &__items {
+        margin-left: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    &__list {
+        font-size: 1.8rem;
+        padding: 1rem 1rem;
+        line-height: 2.5rem;
+    }
+
+    &__link {
+        color: $color-primary;
+        text-decoration: none;
+
+        &:hover {
+            border-bottom: 1px solid $color-primary;
+        }
+    }
+
+    &__fonts {
+        grid-column: 2 / span 1;
+        background-color: $color-grey-light-2;
+    }
+
+    &__tools {
+        grid-column: 3 / span 1;
+    }
+
+    &__community {
+        grid-column: 4 / span 1;
+    }
+}

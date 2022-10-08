@@ -1,0 +1,26 @@
+.photography {
+    text-align: center;
+
+    &__icon {
+        height: 7rem;
+        width: 7rem;
+        margin-bottom: 4.5rem;
+    }
+
+    &__paragraph {
+        font-size: 1.8rem;
+
+        &--1 {
+            margin-top: 3rem;
+            padding-bottom: .5rem;
+        }
+
+        &--2 {
+            margin-bottom: 5rem;
+        }
+    }
+
+    &__link {
+        font-size: 1.5rem;
+    }
+}

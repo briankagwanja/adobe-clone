@@ -12,7 +12,50 @@
 }
 
 .section-cloud {
-    background-color: $color-grey-light-2;
-    height: 80rem;
+    background-color: $color-grey-light-3;
+    height: 120rem;
     padding: 3rem;
+}
+
+.section-started {
+    background-image: url(../../img/banner.jpg);
+    padding: 1rem;
+    height: 43vh;
+    margin-bottom: 8rem;
+}
+
+.section-creative {
+    height: 75rem;
+}
+
+.section-questions {
+    height: 58rem;
+    
+}
+
+.section-metarverse {
+    height: 80vh;
+    background-image: url(../../img/autoit_fire3.jpg);
+    background-size: cover;
+}
+
+.section-gradient{
+    height: 2rem;
+    background: linear-gradient(to right bottom, rgba($color-1, .9), rgba($color-2, .9), rgba($color-3, .9), rgba($color-4, .9));
+}
+
+.section-plan {
+    background-color: black;
+    height: 90vh;
+    margin-bottom: 5rem;
+}
+
+.section-photography {
+    height: 60vh;
+}
+
+.adobe-footer {
+    background-color: $color-grey-light-3;
+    height: 60rem;
+    position: relative;
 }
